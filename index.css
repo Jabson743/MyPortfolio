@@ -103,6 +103,7 @@ input{
         border-bottom-right-radius: 70px;
         margin-left: 58px;
         margin-top: 20px;
+        width: 70%;
     }
     .container-1{
         display: inline-block;
