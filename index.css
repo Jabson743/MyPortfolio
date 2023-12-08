@@ -45,12 +45,10 @@ input{
     display: none;
     font-size: 22px;
     user-select: none;
+    margin-right: 10px;
 }
 
-@media screen and (max-width: 576px) {
-    body{
-        background-color:  red;
-    }
+@media screen and (max-width: 480px) {
      .menu{
         display: none;
         position: absolute;
@@ -70,23 +68,26 @@ input{
      .hamburger{
         display: block;
         font-size: 25px;
-        color: black;
+        color: black
     } 
-
     .icon{
-        display: inline-flexbox;
-        width: 100%;
-        height: auto;
-    }
-    .skills{
-        display: inline;
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-left: 125px;
+        margin-top: 20px;
     }
     .skills h2{
+        display: flex;
+        justify-content: center;
         color: blue;
         font-size: 30px;
         font-family: cursive;
+        margin-top: 20px;
+    }
+    .profile{
+        margin-left: 80px;
+        margin-top: 20px;
     }
     .profile h2{
         margin-left: 100px;
@@ -94,30 +95,22 @@ input{
         font-family: cursive;
     }
     .my-pic{
-        display: block;
-        justify-content: baseline;
-        width: 100%;
-        height: auto;
-        margin-top: 55px;
-        margin-right: 20px;
+        display: flex;
+        justify-content: center;
         border-top-right-radius: 70px;
         border-bottom-left-radius: 70px;
         border-top-left-radius: 70px;
         border-bottom-right-radius: 70px;
         transition: 5s ease-out;
+        margin-left: 70px;
+        margin-top: 20px;
     }
-    
-    .my-pic:hover{
-        transition-duration: 8s;
-        transform: rotate(180deg);
+    .container-1{
+        display: inline-block;
     }
 }
 
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    body{
-        background-color: green;
-    }
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .menu{
         display: none;
         position: absolute;
@@ -136,11 +129,12 @@ input{
     }
     .hamburger{
         display: block;
-        font-size: 25px;
+        font-size: 30px;
         color: black;
     }
     .icon{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
     }
     
     .skills h2{
@@ -148,11 +142,26 @@ input{
         justify-content: center;
         font-size: 30px;
         font-family: cursive;
-        margin: auto;
+        color: blue;
+    }
+    .container-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .my-pic{
+        display: flex;
+        justify-content: center;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        transition: 5s ease-out;
+        margin-right: 30px;
+        margin-top: 20px;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .menu{
         display: none;
         position: absolute;
@@ -171,76 +180,104 @@ input{
     }
     .hamburger{
         display: block;
-        font-size: 25px;
+        font-size: 35px;
         color: black;
         margin-left: 0px;
     }
     .icon{
-        display: inline-block;
-    }
-    .skills{
+        display: flex;
         justify-content: center;
+        align-content: center;
     }
+    
     .skills h2{
+        display: flex;
+        justify-content: center;
         color: blue;
         font-size: 30px;
         font-family: cursive;
     }
+    .container-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .my-pic{
+        display: flex;
+        justify-content: center;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        transition: 5s ease-out;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
 }
 
-
-.container-1{
-    display: flex;
-    justify-content: space-between;
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .menu{
+        display: flex;
+        list-style: none;
+        font-family: cursive;
+        font-size: 18px;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 15px;
+        color: black;
+    }
+    .menu a:hover{
+        cursor: pointer;
+        color: blue;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .skills h2{
+        display: flex;
+        justify-content: center;
+        color: blue;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .container-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .my-pic{
+        display: flex;
+        justify-content: center;
+        border-top-right-radius: 70px;
+        border-bottom-left-radius: 70px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        transition: 5s ease-out;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
 }
-
 .profile h2{
     margin-left: 100px;
     color: blue;
     font-family: cursive;
 }
-
-.my-pic{
-    margin-top: 55px;
-    margin-right: 20px;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 70px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    width: auto;
-    transition: 5s ease-out;
-}
-
-.my-pic:hover{
-    transition-duration: 8s;
-    transform: rotate(180deg);
-}
-
 .skills{
     justify-content: center;
     align-content: center;
-    
 }
-
-.skills h2{
-    color: blue;
-    font-size: 30px;
-    font-family: cursive;
-}
-
 .profile h3{
     margin-left: 30px;
     margin-top: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
 }
-
 .profile h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     margin-left: 30px;
 }
-
 .btn{
     margin-left: 32px;
     padding: 8px;
@@ -252,7 +289,6 @@ input{
     font-family: cursive;
     font-size: 12px;
 }
-
 .btn-1{
     margin-left: px;
     padding: 8px;
@@ -264,47 +300,39 @@ input{
     font-size: 12px;
     font-family: cursive;
 }
-
 .social-media{
     margin-left: 8px;
     color: blue;
     font-size: 20px;
     margin-left: 30px;
 }
-
 .social-media li{
     display: inline-block;
     margin: 10px;
 }
-
 .about-me{
     background-color: ghostwhite;
     padding: 50px;
 }
-
 .about-me h3{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
 }
-
 span{
     color: blue;
 }
-
 .about-me h4{
     margin-top: 5px;
     font-size: 18px;
     font-family: cursive;
 }
-
 .about-me p{
     margin-top: 5px;
     font-size: 15px;
     line-height: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 .btn-2{
     padding: 10px;
     border: 1px solid blue;
@@ -312,20 +340,3 @@ span{
     border-radius: 8px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
