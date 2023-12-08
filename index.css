@@ -74,7 +74,7 @@ input{
         display: flex;
         flex-direction: column;
         width: 200px;
-        margin-left: 125px;
+        margin-left: 110px;
         margin-top: 20px;
     }
     .skills h2{
@@ -86,8 +86,7 @@ input{
         margin-top: 20px;
     }
     .profile{
-        margin-left: 80px;
-        margin-top: 20px;
+        margin-left: 50px;
     }
     .profile h2{
         margin-left: 100px;
