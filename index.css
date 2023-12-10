@@ -16,6 +16,14 @@
     color: black;
     transition: 5s;
     font-weight: 800;
+    animation-name: jay;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes jay{
+    from{color: black;}
+    to{color: yellow;}
 }
 .logo:hover{
     transition-duration: 10s;
