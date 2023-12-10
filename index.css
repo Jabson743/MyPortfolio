@@ -23,7 +23,7 @@
 }
 @keyframes jay{
     from{color: black;}
-    to{color: yellow;}
+    to{color: blue;}
 }
 .logo:hover{
     transition-duration: 10s;
