@@ -357,3 +357,33 @@ span{
     border-radius: 8px;
     color: white;
 }
+.my-pro{
+    background-color: ghostwhite;
+    padding: 15px;
+}
+.my-pro p{
+    color: blue;
+    font-family: cursive;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.my-pro button{
+    padding: 10px;
+    margin-left: 35px;
+    border:  1px solid blue;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+}
+.cont{
+    margin-left: 8px;
+    color: red;
+    font-family: cursive;
+    background-color: ghostwhite;
+    padding: 10px;
+}
+.cont a{
+    color: blue;
+    text-decoration: none;
+}
