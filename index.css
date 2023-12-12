@@ -367,6 +367,9 @@ span{
     margin-left: 60px;
     margin-top: 10px;
 }
+.my-pro img{
+    width: 180px;
+}
 .my-pro button{
     padding: 10px;
     margin-left: 35px;
@@ -379,11 +382,12 @@ span{
 .cont{
     margin-left: 8px;
     color: red;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: ghostwhite;
     padding: 10px;
 }
 .cont a{
     color: blue;
     text-decoration: none;
+    font-family: cursive;
 }
