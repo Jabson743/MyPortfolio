@@ -87,8 +87,9 @@ input{
     .icon{
         display: flex;
         flex-direction: column;
+        gap: 20px;
         width: 200px;
-        margin-left: 80px;
+        margin-left: 140px;
         margin-top: 20px;
     }
     .skills h2{
@@ -100,12 +101,22 @@ input{
         margin-top: 20px;
     }
     .profile{
-        margin-left: 40px;
+        margin-left: 3px;
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 10px;
+        margin-bottom: 20px;
     }
-    .profile h2{
+    .profile h3{
         margin-left: 100px;
-        color: blue;
+        color: white;
         font-family: cursive;
+    }
+    .profile h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        margin-left: 30px;
+        color: white;
     }
     .my-pic{
         display: flex;
@@ -120,6 +131,65 @@ input{
     }
     .container-1{
         display: inline-block;
+        background-color: #3d3333;
+        padding: 15px;
+    }
+    .social-media{
+        margin-left: 8px;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .btn{
+        margin-left: 32px;
+        padding: 8px;
+        width: 80px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 12px;
+        color: blue;
+    }
+    .btn-1{
+        margin-left: px;
+        padding: 8px;
+        width: 80px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    .skills{
+        justify-content: center;
+        align-content: center;
+        background-color: #3d3333;
+        padding: 20px;
+    }
+    .skills h2{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .html{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .css{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;   
+    }
+    .java{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
     }
 }
 
@@ -155,8 +225,8 @@ input{
     .icon{
         display: flex;
         justify-content: center;
+        gap: 20px;
     }
-    
     .skills h2{
         display: flex;
         justify-content: center;
@@ -166,7 +236,9 @@ input{
     }
     .container-1{
         display: flex;
-        justify-content: space-between;
+        gap: 30px;
+        background-color: #3d3333;
+        padding: 20px;
     }
     .my-pic{
         display: flex;
@@ -177,7 +249,80 @@ input{
         border-bottom-right-radius: 70px;
         transition: 5s ease-out;
         margin-right: 30px;
-        margin-top: 20px;
+        margin-top: 5px;
+        width: 300px;
+    }
+    .profile{
+        margin-left: 3px;
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .btn{
+        margin-left: 32px;
+        padding: 8px;
+        width: 80px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 12px;
+        color: blue;
+    }
+    .btn-1{
+        margin-left: px;
+        padding: 8px;
+        width: 80px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    .social-media{
+        margin-left: 8px;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .profile h3{
+        margin-left: 100px;
+        color: white;
+        font-family: cursive;
+    }
+    .profile h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        margin-left: 30px;
+        color: white;
+    }
+    .skills{
+        justify-content: center;
+        align-content: center;
+        background-color: #3d3333;
+        padding: 20px;
+    }
+    .skills h2{
+        color: white;
+        margin-bottom: 25px;
+    }
+    .html{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .css{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;   
+    }
+    .java{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
     }
 }
 
@@ -217,6 +362,8 @@ input{
     .container-1{
         display: flex;
         justify-content: space-between;
+        background-color: #3d3333;
+        padding: 20px;
     }
     .my-pic{
         display: flex;
@@ -227,7 +374,75 @@ input{
         border-bottom-right-radius: 70px;
         transition: 5s ease-out;
         margin-right: 30px;
-        margin-top: 20px;
+        margin-top: 8px;
+    }
+    .profile{
+        margin-left: 3px;
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .profile h3{
+        color: white;
+    }
+    .profile h4{
+        color: white;
+    }
+    .btn{
+        margin-left: 32px;
+        padding: 8px;
+        width: 80px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 12px;
+        color: blue;
+    }
+    .btn-1{
+        margin-left: px;
+        padding: 8px;
+        width: 80px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    .social-media{
+        color: white;
+        margin-left: 25px;
+    }
+    .skills h2{
+        color: white;
+        margin-bottom: 25px;
+    }
+    .html{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .css{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;   
+    }
+    .java{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .skills{
+        justify-content: center;
+        align-content: center;
+        background-color: #3d3333;
+        padding: 20px;
+    }
+    .icon{
+        gap: 20px;
     }
 }
 
@@ -255,9 +470,10 @@ input{
     .skills h2{
         display: flex;
         justify-content: center;
-        color: blue;
+        color: white;
         font-size: 30px;
         font-family: cursive;
+        margin-bottom: 25px;
     }
     .container-1{
         display: flex;
@@ -273,6 +489,76 @@ input{
         transition: 5s ease-out;
         margin-right: 30px;
         margin-top: 20px;
+    }
+    .skills{
+        justify-content: center;
+        align-content: center;
+        background-color: #3d3333;
+        padding: 20px;
+    }
+    .html{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .css{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;   
+    }
+    .java{
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 15px;
+    }
+    .icon{
+        gap: 20px;
+    }
+    .container-1{
+        display: flex;
+        justify-content: space-between;
+        background-color: #3d3333;
+        padding: 20px;
+    }
+    .profile{
+        margin-left: 3px;
+        box-shadow: 1px 5px 10px 1px #000000;
+        width: fit-content;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .btn{
+        margin-left: 32px;
+        padding: 8px;
+        width: 80px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 12px;
+        color: blue;
+    }
+    .btn-1{
+        margin-left: px;
+        padding: 8px;
+        width: 80px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: cursive;
+    }
+    .social-media{
+        color: white;
+        margin-left: 25px;
+    }
+    .profile h3{
+        color: white;
+    }
+    .profile h4{
+        color: white;
     }
 }
 .profile h2{
@@ -295,7 +581,7 @@ input{
     font-size: 22px;
     margin-left: 30px;
 }
-.btn{
+/* .btn{
     margin-left: 32px;
     padding: 8px;
     width: 80px;
@@ -305,8 +591,8 @@ input{
     text-align: center;
     font-family: cursive;
     font-size: 12px;
-}
-.btn-1{
+} */
+/* .btn-1{
     margin-left: px;
     padding: 8px;
     width: 80px;
@@ -316,13 +602,13 @@ input{
     color: black;
     font-size: 12px;
     font-family: cursive;
-}
-.social-media{
+} */
+/* .social-media{
     margin-left: 8px;
     color: blue;
     font-size: 20px;
     margin-left: 30px;
-}
+} */
 .social-media li{
     display: inline-block;
     margin: 10px;
@@ -360,6 +646,10 @@ span{
 .my-pro{
     background-color: ghostwhite;
     padding: 15px;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
 }
 .my-pro p{
     color: blue;
@@ -379,6 +669,31 @@ span{
     color: white;
     font-size: 12px;
 }
+.pro-1{
+    background-color: ghostwhite;
+    padding: 15px;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.pro-1 p{
+    color: blue;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.pro-1 img{
+    width: 180px;
+}
+.pro-1 button{
+    padding: 10px;
+    margin-left: 35px;
+    border:  1px solid blue;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+}
 .cont{
     margin-left: 8px;
     color: red;
@@ -390,4 +705,7 @@ span{
     color: blue;
     text-decoration: none;
     font-family: cursive;
+}
+.all-projects{
+    display: flex;
 }
