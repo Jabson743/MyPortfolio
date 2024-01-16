@@ -91,6 +91,7 @@ input{
         gap: 20px;
         width: 200px;
         margin-top: 20px;
+        margin-left: 100px;
     }
     .skills h2{
         display: flex;
