@@ -86,10 +86,10 @@ input{
     }
     .icon{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         gap: 20px;
         width: 200px;
-        margin-left: 100px;
         margin-top: 20px;
     }
     .skills h2{
@@ -123,8 +123,6 @@ input{
         justify-content: center;
         border-top-right-radius: 70px;
         border-bottom-left-radius: 70px;
-        border-top-left-radius: 70px;
-        border-bottom-right-radius: 70px;
         margin-left: 58px;
         margin-top: 20px;
         width: 70%;
@@ -179,17 +177,14 @@ input{
     .html{
         box-shadow: 1px 5px 10px 1px #000000;
         width: fit-content;
-        border-radius: 15px;
     }
     .css{
         box-shadow: 1px 5px 10px 1px #000000;
         width: fit-content;
-        border-radius: 15px;   
     }
     .java{
         box-shadow: 1px 5px 10px 1px #000000;
         width: fit-content;
-        border-radius: 15px;
     }
 }
 
@@ -482,8 +477,6 @@ input{
     .my-pic{
         display: flex;
         justify-content: center;
-        border-top-right-radius: 70px;
-        border-bottom-left-radius: 70px;
         border-top-left-radius: 70px;
         border-bottom-right-radius: 70px;
         transition: 5s ease-out;
@@ -499,17 +492,14 @@ input{
     .html{
         box-shadow: 1px 5px 10px 1px #000000;
         width: fit-content;
-        border-radius: 15px;
     }
     .css{
         box-shadow: 1px 5px 10px 1px #000000;
-        width: fit-content;
-        border-radius: 15px;   
+        width: fit-content;   
     }
     .java{
         box-shadow: 1px 5px 10px 1px #000000;
         width: fit-content;
-        border-radius: 15px;
     }
     .icon{
         gap: 20px;
