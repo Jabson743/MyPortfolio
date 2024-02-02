@@ -139,6 +139,9 @@ input{
         font-size: 20px;
         margin-left: 30px;
     }
+    a:link{
+        color: white;
+    }
     .btn{
         margin-left: 32px;
         padding: 8px;
@@ -699,4 +702,9 @@ span{
 }
 .all-projects{
     display: flex;
+}
+p{
+    color:  white ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
